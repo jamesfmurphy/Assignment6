@@ -13,6 +13,7 @@ $('#answer').click(function(){
       },
       //dataType: 'jsonp',
       success: function(data) {
+         $('#info').empty();
          var $outcome = $('<p>').text(data.outcome);
          var $wins = $('<p>').text(data.wins);
          var $losses = $('<p>').text(data.losses);
@@ -44,6 +45,7 @@ $('#answer2').click(function(){
       },
       //dataType: 'jsonp',
       success: function(data) {
+         $('#info').empty();
          var $outcome = $('<p>').text(data.outcome);
          var $wins = $('<p>').text(data.wins);
          var $losses = $('<p>').text(data.losses);
@@ -75,6 +77,7 @@ $('#answer3').click(function(){
       },
       //dataType: 'jsonp',
       success: function(data) {
+         $('#info').empty();
          var $outcome = $('<p>').text(data.outcome);
          var $wins = $('<p>').text(data.wins);
          var $losses = $('<p>').text(data.losses);
@@ -106,6 +109,7 @@ $('#answer4').click(function(){
       },
       //dataType: 'jsonp',
       success: function(data) {
+         $('#info').empty();
          var $outcome = $('<p>').text(data.outcome);
          var $wins = $('<p>').text(data.wins);
          var $losses = $('<p>').text(data.losses);
@@ -137,7 +141,7 @@ $('#answer5').click(function(){
       },
       //dataType: 'jsonp',
       success: function(data) {
-
+         $('#info').empty();
          var $outcome = $('<p>').text(data.outcome);
          var $wins = $('<p>').text(data.wins);
          var $losses = $('<p>').text(data.losses);
