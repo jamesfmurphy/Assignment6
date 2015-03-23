@@ -1,0 +1,18 @@
+<form action="/play/rock" >
+			<button type="submit" id="/play/rock" class="chosen"  value="">Rock</button>
+		</form>
+		<form action="/play/paper" >
+			
+			<button type="submit" id="/play/paper" class="chosen" value="">Paper</button>
+		</form>
+		<form action="/play/scissors" >
+			<button type="submit" id="/play/scissors" class="chosen" value="">Scissors</button>
+		</form>
+		<form action="/play/lizard" >
+			<button type="submit" id="/play/lizard" class="chosen" value="">Lizard</button>
+		</form>
+		<form action="/play/spock" >
+			<button type="submit" id="/play/spock" class="chosen" value="">Spock</button>
+		</form>
+
+		
